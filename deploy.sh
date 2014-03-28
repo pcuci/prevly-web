@@ -1,2 +1,2 @@
 #!/bin/bash
-echo hello
+scp -r ./ start:/var/www/sana.io/
