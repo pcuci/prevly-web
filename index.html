@@ -55,14 +55,31 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-	<h1>Find your wearables</h1>
-	<p>Your lifestyle, your wearables.</p>
-        <iframe src="https://docs.google.com/forms/d/1pHzJhm49rnSVsF_Vi-jxxIMVvBwafcFtwfvdFj7Is1Y/viewform?embedded=true" width="100%" height="500" scrolling="no" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-        <p>Not all wearables are made for you.</p>
+	     <h1>Find your wearables</h1>
+	      <p>Not all wearables are made for you.</p>
         <p>We'll help you choose the right devices for your health and fitness needs.</p>
-        <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
+        <!-- Button trigger modal -->
+        <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Find my wearables &raquo;</button>
       </div>
     </div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">About yourself</h4>
+      </div>
+      <div class="modal-body">
+        <iframe src="https://docs.google.com/forms/d/1pHzJhm49rnSVsF_Vi-jxxIMVvBwafcFtwfvdFj7Is1Y/viewform?embedded=true" width="100%" height="400" scrolling="no" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
     <div class="container">
       <!-- Example row of columns -->
