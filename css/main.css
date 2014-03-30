@@ -3,11 +3,14 @@
    ========================================================================== */
 
 .jumbotron {
-  background-image: url(http://blog.conqueryourdebt.org/wp-content/uploads/2013/06/Runner_bannerimage.jpg);
-  background-position: 30% 15%;
+	background-image: url(http://blog.conqueryourdebt.org/wp-content/uploads/2013/06/Runner_bannerimage.jpg);
+ 	background-position: 30% 15%;
 }
 
-
+body {
+ 	padding-top: 50px;
+	padding-bottom: 20px;
+}
 
 
 
