@@ -14,8 +14,6 @@
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/main.css">
 
-    <link href="https://cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
-
     <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 
     <!-- Google Analytics -->
@@ -42,7 +40,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><strong style="color: #9BF;">SANA.IO</strong></a>
+          <a class="navbar-brand" href="#"><strong style="color: #9BF;">SANA</strong></a>
         </div>
         <!--
         <div class="navbar-collapse collapse">
@@ -62,34 +60,30 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-       <h1>Push yourself to the <strong>next level</strong></h1>
-        <p>Contextualized notifications that help you get better.</p>
-        <p>SANA.IO is a self-care notification platform based on contextual triggers to promote on-going health awareness and provoke healthier actions.</p>
+	     <h1>Push yourself to the <strong>next level</strong></h1>
+	      <p>Not all fitness trackers are created equal.</p>
+        <p>Discover the right wearable devices for your health and fitness needs.</p>
         <br />
-        
+        <!-- Button trigger modal -->
+        <button id="call-to-action-button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Fill in the Survey &raquo;</button>
+      </div>
+    </div>
 
-        <div id="mc_embed_signup" class="col-md-4">
-          <form action="http://bubbledup.us1.list-manage1.com/subscribe/post?u=a16929a7d86b16ecfc960cd42&amp;id=f5aad54166" method="post" id="call-to-action-button-change-form" name="call-to-action-button-change-form" class="validate" target="_blank" novalidate>
-            
-          <div class="mc-field-group">
-            <label for="mce-NAME">Your Name </label>
-            <input type="text" value="" name="NAME" class="" id="mce-NAME">
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="myModalLabel">About your lifestyle</h4>
           </div>
-          <div class="mc-field-group">
-            <label for="mce-EMAIL">Email Address </label>
-            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+          <div class="modal-body">
+            <iframe src="https://docs.google.com/forms/d/1pHzJhm49rnSVsF_Vi-jxxIMVvBwafcFtwfvdFj7Is1Y/viewform?embedded=true" width="100%" height="600" scrolling="no" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
           </div>
-            <div id="mce-responses" class="clear">
-              <div class="response" id="mce-error-response" style="display:none"></div>
-              <div class="response" id="mce-success-response" style="display:none"></div>
-            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-              <div style="position: absolute; left: -5000px;"><input type="text" name="b_a16929a7d86b16ecfc960cd42_f5aad54166" value=""></div>
-            <div class="clear">
-              <input type="submit" value="Subscribe to Fitness Notifications &nbsp;&nbsp;&raquo;" name="subscribe" id="call-to-action-button-change" class="btn btn-primary btn-lg">
-            </div>
-          </form>
+          <div class="modal-footer">
+            <button id="close-questionnaire-button" type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
-
       </div>
     </div>
 
@@ -98,34 +92,18 @@
       <div class="row">
         <div class="col-md-4">
           <h2>Be More Active</h2>
-          <p>Get reminded to walk more often</p>
+          <p>Track your steps</p>
           <img src="img/goals/move.jpg" />
         </div>
         <div class="col-md-4">
           <h2>Run Faster</h2>
-          <p>Get notified when the weather is great for running</p>
+          <p>Measure your performance</p>
           <img src="img/goals/run.png" />
         </div>
         <div class="col-md-4">
           <h2>Sleep Better</h2>
-          <p>Subscribe to a go-to-sleep alarm</p>
+          <p>Know your patterns</p>
           <img src="img/goals/sleep.png" />
-        </div>
-      </div>
-
-      <!-- About Us -->
-      <div id="about" class="row">
-        <div class="col-md-12">
-          <h2>About Us</h2>
-          <p>At SANA, we strive to empower people to live better and healthier lives. We believe that the best form of preventative medicine is the culmination of short-term decisions that uphold one's health and well-being, day in day out.</p>
-
-          <p>To this end, we are developing a technological platform that incorporates predictive intelligence and data-driven contextual triggers to send mobile-based notifications and reminders to users throughout the day that provoke realtime actionable steps towards better health.</p>
-
-          <p>Our technology is a convenient and accessible means of ensuring that the importance of health and well-being is not diminished amidst the chaotic flow of our daily lives.</p>
-
-          <p>Well-being and health are entities deeply embedded within the fabrics of context. We recognize the dynamic nature of such entities, and take a holistic approach in addressing them on the realms of both the physical and mental.</p>
-
-          <p>Given these intricacies, we are developing highly-interactive and diversified means of engaging users, with the aims of leveraging self-empowerment as a path towards behaviour modification.</p>
         </div>
       </div>
 
@@ -135,15 +113,15 @@
       <div class="row">
         <div class="col-md-12"><h2>What are others saying?</h2></div>
         <div class="col-md-4">
-           <p>Undercover behavior change! I don't have to think about staying healthy, it's a mind game, and sana.io has got into my head - in a good way.</p>
+           <p>The Polar band is great for heart rate measurments, thank you for recomending it!</p>
            <p><strong>Johann Gist - Cyclist</strong></p>
         </div>
         <div class="col-md-4">
-          <p>I wanted something practical that fits into my lifestyle. The notifications are easy enough to do, and so I just do them. Who would have thought?</p>
+          <p>I wanted an activity monitor that looked sleek and cool, the Shine is definitely my device!</p>
           <p><strong>James Duncan - Triathlon Athlete</strong></p>
        </div>
         <div class="col-md-4">
-          <p>sana.io notifications nudged me into taking my friends out for walks in the park, how pleasant.</p>
+          <p>Was looking for something that tells me I've been sitting for too long, and that I need to move - the VivoFit works great, good battery life too.</p>
           <p><strong>Tina Sempres - Graphic Artist</strong></p>
         </div>
       </div>
