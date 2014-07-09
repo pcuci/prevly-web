@@ -1,2 +1,2 @@
 #!/bin/bash
-scp -r ./ start:/var/www/sana.io/
+scp -r ./ start:/var/www/prevly.com/
