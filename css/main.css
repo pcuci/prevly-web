@@ -3,11 +3,30 @@
    ========================================================================== */
 
 .jumbotron {
-	background-image: url(https://farm9.staticflickr.com/8168/7670604528_0223dab50b_k.jpg);
- 	background-position: 0% 40%;
+	background-image: url("../img/musicalchairs.png");
+ 	background-position: 0% 50%;
 }
 
 body {
  	padding-top: 50px;
 	padding-bottom: 20px;
+}
+
+.jumbotron {
+        color: #FFF;
+}
+
+#testimonial {
+        background-color: #222; 
+        margin-top: 20px;
+        padding: 15px;  
+        font-style: center; 
+        font-style: italic;
+        color: #FFF; 
+        text-align: center;
+        font-family: serif;
+        font-size: 34px;
+}
+#testimonial-author {
+        font-size: 26px;
 }
