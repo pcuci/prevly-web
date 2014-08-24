@@ -16,6 +16,15 @@ body {
         color: #FFF;
 }
 
+.centered {
+        text-align: center;
+}
+
+.team {
+        margin: 20px;
+}
+
+
 #testimonial {
         background-color: #222; 
         margin-top: 20px;
